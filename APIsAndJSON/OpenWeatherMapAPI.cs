@@ -12,10 +12,11 @@ namespace APIsAndJSON
     {
         public void currentWeather(string city)
         {
-
+            Console.WriteLine($"First provide the appID from OpenWeatherAPI");
+            var appID = Console.ReadLine();
             var client = new HttpClient();
             //calling API
-            string weatherURL = $"http://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid=74290dc6047f565d8232afe9f5b1228a";
+            string weatherURL = $"http://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid={appID}";
             //pull results of API
             var weatherResponse = client.GetStringAsync(weatherURL).Result;
             //TWO PARTS: parse the results, then you can get the value you want by naming the object
