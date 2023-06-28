@@ -6,6 +6,7 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("----------------------------------------------------------------");
             var convo = new RonVSKanyeAPI();
 
             for (int i = 0; i < 5; i++)
@@ -16,6 +17,11 @@ namespace APIsAndJSON
 
                 Console.WriteLine("==============");
             }
+
+            Console.WriteLine("------------------------------------------------------------------");
+            var weather = new OpenWeatherMapAPI();
+
+            weather.currentWeather("birmingham");
         }
     }
 }

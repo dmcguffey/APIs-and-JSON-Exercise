@@ -15,3 +15,7 @@ C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0
 C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.pdb
 C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.genruntimeconfig.cache
 C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\ref\APIsAndJSON.dll
+C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\RestSharp.dll
+C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\dmcgu\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
