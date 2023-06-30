@@ -12,8 +12,8 @@ namespace APIsAndJSON
     {
         public void currentWeather(string city)
         {
-            Console.WriteLine($"First provide the appID from OpenWeatherAPI");
-            var appID = Console.ReadLine();
+            var apiID = File.ReadAllText("appsettings.json");
+            string appID = JObject.Parse(apiID).GetValue("apiKey").ToString();
             var client = new HttpClient();
             //calling API
             string weatherURL = $"http://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid={appID}";
